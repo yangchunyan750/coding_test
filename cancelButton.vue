@@ -45,7 +45,7 @@
   },
   computed : {
     flag : function(){
-      return   this.nucDate.isBefore(this.nowDate) ? false : true;
+      return this.nucDate.isBefore(this.nowDate) ? false : true;
     }
   },
   props: {
